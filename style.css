@@ -21,7 +21,7 @@ body{
     flex-direction: column;
 }
 
-.top{
+.calc .top{
     height: 20%;
     justify-content: center;
     align-items: center;
@@ -30,20 +30,42 @@ body{
 }
 .text{
     width: 350px;
-    height: 80px;
+    flex-direction: column;
     background-color: lightgreen;
-    font-family: '';
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     border-radius: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.result{
+    height: 60%;
+    font-size: 24px;
+}
+
+.last{
+    height: 40%;
 }
 
 .buttons{
+    flex-direction: column;
+}
+
+.bottom{
     height: 65%;
     width: 100%;
     padding: 5px;
 }
 
+.actions{
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.actions button{
+    background-color: rgb(255, 56, 56);
+    width: 200px;
+}
 .numbers{
     justify-content: space-evenly;
     padding: 10px;
